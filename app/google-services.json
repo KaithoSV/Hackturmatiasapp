@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "468340258556",
+    "firebase_url": "https://hackturmatiasapp.firebaseio.com",
+    "project_id": "hackturmatiasapp",
+    "storage_bucket": "hackturmatiasapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468340258556:android:b4844a61c44242e3",
+        "android_client_info": {
+          "package_name": "com.example.Hackturmatiasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468340258556-ecf2kgv9r38c0rs4rjimu4uo69lb1qcs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Hackturmatiasapp",
+            "certificate_hash": "f0dd75efe4250a7f9b4a601a8cffa73d716ee5f0"
+          }
+        },
+        {
+          "client_id": "468340258556-tcgegpulgj0olpj8fm07ip1mnt1mscqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALRxR80sBKFnUk03wZbL5flNV0RUvu9Jc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468340258556-tcgegpulgj0olpj8fm07ip1mnt1mscqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

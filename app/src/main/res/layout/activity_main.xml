@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context="com.example.Hackturmatiasapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <EditText
+            android:id="@+id/editMail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="128dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#2E9AFE" />
+
+        <EditText
+            android:id="@+id/EditPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editMail"
+            android:layout_below="@+id/editMail"
+            android:layout_marginTop="28dp"
+            android:autoLink="none"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#ffffff"
+            android:textColorHint="#FFFFFF"
+            android:textColorLink="#2E9AFE" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="282dp">
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:background="#2E9AFE"
+            android:text="INICIAR SESION"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/loginfb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_below="@id/btnIniciar"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/loginG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            tools:layout_editor_absoluteY="0dp"
+            android:layout_below="@id/loginfb"></com.google.android.gms.common.SignInButton>
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:text="Registrarse" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
